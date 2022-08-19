@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "build": "npm install && npx sequelize-cli db:migrate && npx sequelize-cli db:seed --seed 20220813042618-category.js && npx sequelize-cli db:seed --seed 20220811183900-skill.js && npx sequelize-cli db:seed --seed 20220811183838-profile.js && npx sequelize-cli db:seed --seed 20220811183810-user.js"
+    "build": "npm install && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
   },
   "repository": {
     "type": "git",
