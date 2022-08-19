@@ -1,51 +1,51 @@
-"use strict"
+'use strict'
 
 module.exports = {
   async up(queryInterface, Sequelize) {
     return queryInterface.bulkInsert(
-      "categories",
+      'categories',
       [
         {
-          name: "Graphics & Design",
+          name: 'Graphics & Design',
           createdAt: new Date(),
-          updatedAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          name: "Administrative",
+          name: 'Administrative',
           createdAt: new Date(),
-          updatedAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          name: "Music & Audio",
+          name: 'Music & Audio',
           createdAt: new Date(),
-          updatedAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          name: "Video & Animation",
+          name: 'Video & Animation',
           createdAt: new Date(),
-          updatedAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          name: "Programming & Tech",
+          name: 'Programming & Tech',
           createdAt: new Date(),
-          updatedAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          name: "Lifestyle",
+          name: 'Lifestyle',
           createdAt: new Date(),
-          updatedAt: new Date(),
+          updatedAt: new Date()
         },
         {
-          name: "Writing & Translation",
+          name: 'Writing & Translation',
           createdAt: new Date(),
-          updatedAt: new Date(),
-        },
+          updatedAt: new Date()
+        }
       ],
       {}
     )
   },
 
   async down(queryInterface, Sequelize) {
-    return queryInterface.bulkDelete("categories", null, {})
-  },
+    return queryInterface.bulkDelete('categories', null, {})
+  }
 }
