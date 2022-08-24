@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { BsArrowDownUp } from 'react-icons/bs'
 import axios from 'axios'
 
-const URL = 'http://localhost:3001'
+const URL = 'https://rabido-db.herokuapp.com/'
 
 function Feed(props) {
   let navigate = useNavigate()
