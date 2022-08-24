@@ -15,8 +15,7 @@ import axios from 'axios'
 import UpdateProfile from './pages/UpdateProfile'
 import SelectedProfile from './pages/SelectedProfile'
 
-const URL =
-  'postgres://idjaovefmglaok:27025db63cd53a545a02075c275292ad60cbd4970b5133bb93e7884202e0ae9b@ec2-52-207-15-147.compute-1.amazonaws.com:5432/dqhtqga90jejs'
+const URL = 'https://rabido-db.herokuapp.com/'
 
 function App() {
   const [authenticated, toggleAuthenticated] = useState(false)
