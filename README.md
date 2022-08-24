@@ -1,64 +1,70 @@
-# Rabido
+# Getting Started with Create React App
 
-<img src= "https://i.ibb.co/x7f4nz8/Rabido-Logo.png" alt="Rabido-Logo" border="0"/>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Date: 8/18/2022
+## Available Scripts
 
-### By: Kenneth Chan, Austin Do, Philippe Covington
+In the project directory, you can run:
 
-#### [Trello](https://github.com/users/phicov/projects/1/views/1)
+### `npm start`
 
-#### [Component Hierarchy Diagram & Entity Relationship Diagram](https://drive.google.com/file/d/1QNlzVS9sxt8pbrxwxD0uIWy81-MzGRF9/view?usp=sharing)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### [Pitch Slides](https://docs.google.com/presentation/d/1HUrO2wHtleAM9TWAxigKFs-YDKhxcyKJiUcwDUOL2tM/edit?usp=sharing)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-### **_Description_**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Rabido is a website that connects freelancers offering services with businesses/individuals. The freelancer creates a profile to showcase their skillsets. Once the account is created, the freelancer will be able to make updates to their profile accordingly. The client/business signs up to view freelancers and their skills on the feed. The client is also able to filter their search to find a freelancer with the specific skills required. Once finding the right person for their project they are able to reach out to further inquire about their skills and past work.
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### **_Technologies_**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
--Postgresql
--Express
--React
--Node.js
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-### **Getting Started**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-#### The landing page will prompt the user to either sign in or sign up. When signing up the user will be asked to check a box to indicate if they are a "Mark"(freelancer) or a "Hunter"(customer). If the user is a "Mark" they will be navigated to a profile form where they will be able to create profile. Once a profile is made, they can review their portolio page and make any updates as necessary. If user is a "Hunter" they will be navigated to the feed, where they can start their search.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### **_Screenshots_**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## ![Image](/client/src/assets/profile.png)
+## Learn More
 
-## ![Image](/client/src/assets/feed.png)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## ![Image](/client/src/assets/cats.png)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
+### Code Splitting
 
-### **_Credits_**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-#### Page Reload with React-Router: [StackOverFlow](https://stackoverflow.com/questions/46820682/how-do-i-reload-a-page-with-react-router/71336494#71336494)
+### Analyzing the Bundle Size
 
-#### React Confirm Box : [NPMJS](https://www.npmjs.com/package/react-confirm-box)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-#### React Icons : [NPMJS](https://www.npmjs.com/package/react-icons)
+### Making a Progressive Web App
 
-#### HTML Input Types: [MDN](https://www.w3schools.com/html/html_form_input_types.asp)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-#### CSS Layout - Overflow: [W3 Schools](https://www.w3schools.com/css/css_overflow.asp)
+### Advanced Configuration
 
-#### CSS Animations: [W3 Schools](https://www.w3schools.com/css/css3_animations.asp)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-#### CSS Variables: [W3 Schools](https://www.w3schools.com/css/css3_variables.asp)
+### Deployment
 
-#### Uncontrolled Components: [reactjs.org](https://reactjs.org/docs/uncontrolled-components.html)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
