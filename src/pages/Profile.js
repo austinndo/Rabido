@@ -5,7 +5,8 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import Modal from '../components/Modal'
 
-const URL = 'http://localhost:3001'
+const URL =
+  'postgres://idjaovefmglaok:27025db63cd53a545a02075c275292ad60cbd4970b5133bb93e7884202e0ae9b@ec2-52-207-15-147.compute-1.amazonaws.com:5432/dqhtqga90jejs'
 
 function Profile({ user, skills }) {
   console.log(user)
