@@ -15,7 +15,7 @@ import axios from 'axios'
 import UpdateProfile from './pages/UpdateProfile'
 import SelectedProfile from './pages/SelectedProfile'
 
-const URL = 'https://rabido-db.herokuapp.com/'
+const URL = 'https://rabido-db.herokuapp.com'
 
 function App() {
   const [authenticated, toggleAuthenticated] = useState(false)
