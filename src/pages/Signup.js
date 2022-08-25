@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const URL = 'http://localhost:3001'
+const URL = 'https://rabido-db.herokuapp.com/'
 
 function Signup(props) {
   let navigate = useNavigate()

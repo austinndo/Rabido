@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
-const URL = 'http://localhost:3001'
+const URL = 'https://rabido-db.herokuapp.com/'
 
 function ViewProfilesBySkill(props) {
   const [profiles, setProfiles] = useState([])

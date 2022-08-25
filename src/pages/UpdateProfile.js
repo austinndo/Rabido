@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { confirm } from 'react-confirm-box'
 
-const URL = 'http://localhost:3001'
+const URL = 'https://rabido-db.herokuapp.com/'
 
 function UpdateProfile({ user, skills, handleLogOut }) {
   let navigate = useNavigate()
