@@ -34,9 +34,5 @@
     "pg": "^8.7.3",
     "react-confirm-box": "^1.2.0",
     "sequelize": "^6.21.3"
-  },
-  "devDependencies": {
-    "cors": "^2.8.5",
-    "nodemon": "^2.0.19"
   }
 }
