@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
-const URL = 'https://rabido-db.herokuapp.com/'
+const URL = 'https://rabido-db.herokuapp.com'
 
 const SelectedProfile = () => {
   let { profileId } = useParams()

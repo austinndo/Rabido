@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
-const URL = 'https://rabido-db.herokuapp.com/'
+const URL = 'https://rabido-db.herokuapp.com'
 
 function ViewSkillsByCat(props) {
   const [skills, setSkills] = useState([])

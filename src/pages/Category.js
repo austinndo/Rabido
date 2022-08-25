@@ -11,7 +11,7 @@ import lifestyle from '../assets/lifestyle.jpeg'
 import write from '../assets/write.jpeg'
 import './CatsPage.css'
 
-const URL = 'https://rabido-db.herokuapp.com/'
+const URL = 'https://rabido-db.herokuapp.com'
 
 const Category = (props) => {
   let navigate = useNavigate()
